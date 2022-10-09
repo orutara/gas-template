@@ -131,3 +131,7 @@ Training
 Blog
 About
 lp-template/.gitignore at main · orutara/lp-templatelp-template/.gitignore at main · orutara/lp-template
+
+# Google Apps Script
+appsscript.json
+.clasp.json
