@@ -1,3 +1,6 @@
-const sayHello = () => {
-  console.log("Hello, World!");
+const init = () => {
+  const userProperties = PropertiesService.getUserProperties()
+  userProperties.setProperties({
+    'spreadSheetId': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  });
 }
