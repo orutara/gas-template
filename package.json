@@ -1,17 +1,16 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
+    "fix": "standard --fix",
     "deploy": "clasp push"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "clasp": "^1.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "standard": "^17.0.0"
   }
 }
